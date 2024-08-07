@@ -1,0 +1,33 @@
+.notification-header {
+  gap: 0.9rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.4rem;
+  width: 100%;
+}
+
+.notification-wrapper {
+  align-items: center;
+  gap: 0.9rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1c202b;
+}
+
+.notification-number {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fff;
+  padding: 0.4rem 1.1rem;
+  border-radius: 0.6rem;
+  background-color: #0a327b;
+}
+
+.read-all {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #5e6778;
+}

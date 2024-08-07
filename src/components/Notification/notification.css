@@ -1,0 +1,81 @@
+.notification {
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+  display: flex;
+  gap: 1.3rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.notification:hover,
+.message-wrapper:hover {
+  cursor: pointer;
+}
+
+.profile-picture {
+  width: 3.9rem;
+  height: 3.9rem;
+  border: solid 1px rgba(0, 0, 0, 0.05);
+}
+
+.user {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #1c202b;
+  margin-right: 0.6rem;
+}
+
+.dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #f65552;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.action {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #5e6778;
+  margin-right: 0.6rem;
+}
+
+.post,
+.group {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-right: 0.6rem;
+}
+
+.post {
+  color: #5e6778;
+}
+
+.group {
+  color: #0a327b;
+}
+
+.time {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #939cad;
+}
+
+.message-wrapper {
+  padding: 16px;
+  border-radius: 5px;
+  border: solid 1px #dde7ee;
+  background-color: #fff;
+  margin-top: 1.2rem;
+}
+
+.message {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #5e6778;
+}
+
+.message-wrapper:hover {
+  background-color: #e5effa;
+  border: solid 1px #dde7ee;
+}
